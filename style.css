@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: none;
+  font-family: "Gentium Basic";
+}
+
+.page-container {
+  margin: 3rem;
+}
+
+.dev-firstname {
+  font-weight: bold;
+}
+.dev-name {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.line {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 60px;
+  height: 3px;
+  background-color: gray;
+  border-radius: 4px;
+}
+.cv-logo {
+  width: 129px !important;
+  height: 129px !important;
+  max-width: 165px !important;
+  max-height: 165px !important;
+  /* padding-left: 40px; */
+  display: flex;
+  justify-content: center;
+  /* background-color: gray; */
+}
+
+.dev-role {
+  color: gray;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-right img {
+  /* padding-left: 40px; */
+  border-radius: 50%;
+  /* border-width: 4.5px; */
+  background-color: gray;
+  /* border-style: solid; */
+  height: 100%;
+  width: 100%;
+}
+
+.personal-statement {
+  margin: 1.2rem 0;
+  padding: 5px;
+  background-color: whitesmoke;
+  color: black;
+  border-width: 0px 0px 0px 4.5px;
+  border-style: solid;
+}
+
+.main-content {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  column-gap: 5px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px 0px 0px 0px;
+}
+
+.left-content {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 0px 1px 0px 0px;
+  padding-right: 25px;
+}
+
+.main-content-header {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 0px 0px 1px 0px;
+}
+
+.header-bold {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 0.5rem;
+  color: white;
+  font-size: 12px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contact-item {
+  padding: 0.4rem 0px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 0px 0px 2px 0px;
+}
+
+.contact-item-icon {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 0px 2px 0px 0px;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item-margin-top {
+  margin-top: 2.3rem;
+}
+
+.contact-item-description {
+  padding-left: 1rem;
+  font-size: 14px;
+  color: gray;
+}
+
+.border-top {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 2px 0px 2px 0px;
+}
+
+.education {
+  margin-top: 1.8rem;
+}
+
+.education-type {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.education-college,
+.education-date {
+  color: gray;
+  font-size: 16px;
+}
+
+.no-border {
+  border: none;
+}
+
+.contact-divider {
+  border-style: solid;
+  border-color: lightgray;
+  padding-right: 2.1rem;
+  border-width: 0px 2px 0px 0px;
+}
+
+.extra-skills-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-skills-guage-full {
+  display: inline-block;
+  width: 180px;
+  height: 4px;
+  background-color: black;
+}
+
+.extra-skills-guage-empty {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.right-content {
+  margin-left: 2.2rem;
+}
+
+.mgTop {
+  margin-top: 0.6rem;
+}
+
+.experience-header {
+  display: grid;
+  grid-template-columns: 8fr 3fr;
+  margin-bottom: 1.5rem;
+}
+
+.experience-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.experience-date {
+  padding-right: 1.8rem;
+  border-color: gray;
+  border-style: solid;
+  margin-right: 1px;
+  border-width: 0px 1px 0px 0px;
+}
+
+.experience-description {
+  padding-left: 1.6rem;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+}
+
+.experience-description-role {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+
+.experience-description-location {
+  font-size: 14px;
+  color: gray;
+}
+
+.experience-details {
+  display: grid;
+  grid-template-columns: 7fr 4fr;
+}
+
+.experience-list {
+  border-color: gray;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+}
+
+.experience-tools {
+  padding-left: 1rem;
+  /* text-align: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobbies div {
+  border-color: lightgray;
+  border-style: solid;
+  padding-right: 4rem;
+  border-width: 0px 2px 0px 0px;
+}
+/* .hobbies div:nth-child(1){
+    
+} */
+
+.hobbies div:last-child {
+  border: none;
+}
